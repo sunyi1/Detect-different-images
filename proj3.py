@@ -7,11 +7,13 @@ import operator
 
 # how many different classes of images we have
 numberOfClass = range(1, 6)
+# counters of each class
 x=0
 y = 0
 z = 0
 a = 0
 b = 0
+# you can also set template image path in
 #template = cv2.imread('Data/04/01.jpg')
 #template = cv2.imread('Data/04/81.jpg',0)
 template = cv2.imread(sys.argv[1],0)
